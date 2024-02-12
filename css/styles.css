@@ -1,6 +1,4 @@
 body{
-    padding: 0;
-    margin: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 24px;
@@ -43,6 +41,7 @@ header  li a:hover{
     color: #404BBF;
 }
 
+.footer .logo,
 header .logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -60,13 +59,13 @@ header .logo{
     text-align: center;
 }
 
-.solution h1{
+.solution-h1{
     line-height: 1.07;
     color: #ffffff;
     letter-spacing: 0.02em
 }
 
-.solution button{
+.solution-button{
     width: 169px;
     height: 56px;
     font-weight: 500;
@@ -92,11 +91,20 @@ header .logo{
     font-weight: 500;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
 
+.team-h2,
+.opportunities-h2{
+    letter-spacing: 0.02em;
+    font-weight: 500;
+}
+
+.opportunities-p{
+    color: #434455;
 }
 
 .team{
-    background: #F4F4FD;
+    background-color: #F4F4FD;
     width: 100%;
     height: 732px;
     line-height: 1.11;
@@ -106,6 +114,8 @@ header .logo{
     color: #2e2f42;
     background-color: #ffffff;
 }
+
+
 
 .team h3{
     font-weight: 500;
@@ -171,9 +181,9 @@ footer{
 
 }
 
-footer p{
+.footer p{
     color: #F4F4FD;
-    
+
 }
 
 a{
@@ -183,5 +193,3 @@ a{
     letter-spacing: 0.04em;
     text-decoration: underline;
 }
-
-
