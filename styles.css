@@ -2,55 +2,120 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    color: black;
-    background: white;
     font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.02em;
     text-align: left;
-    text-decoration: none;
-    text-shadow: 2px 2px 4px black;
-    text-transform: none;
-    line-height: normal;
-    letter-spacing: 2px;
-    text-indent: 2px; 
+    color: black;
 }
 
+title,
+h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    font-weight: bold;
+}
 
+h2{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h3{
+
+    font-size: 20px;
+    font-weight: medium;
+}
 
 ul, li{
     list-style-type: none;
 }
 
-.header {
-    background: #E7E9FC;
+header {
+    background-color: #E7E9FC;
+    width: 100%;
+    height: 72px;
 }
 
-.main{
-    color: black;
+header  li a:hover{
+    color: #404BBF;
 }
 
-.footer{
+.solution {
     background: #2E2F42;
+    width: 100%;
+    height: 600px;
+    text-align: center;
 }
 
-.address{
-    color: black;
+.solution button{
+    width: 169px;
+    height: 56px;
+    font-weight: medium;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    font-size: 16px;
+    background-color: #4D5AE5;
+    text-align: center;
 }
 
-.case_1 {
-    background: #2E2F42;
+.solution button:focus,
+.solution button:hover{
+    background: #404BBF;
+    cursor: pointer;
+}
+
+a{
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    text-decoration: underline;
 }
 
 .opportunities{
     background: white;
+    width: 100%;
+    height: 600px;
 }
 
 .team{
     background: #F4F4FD;
+    width: 100%;
+    height: 732px;
 }
 
+.team li{
+    width: 264px;
+    height: 380px;
+    text-align: center;
+}
+
+.team img{
+    width: 264px;
+    height: 260px;
+}
+
+.portfolio{
+    width: 100%;
+    height: 1000px;
+    border: 1px;
+}
+
+.portfolio li{
+    width: 360px;
+    height: 420px;
+}
+
+.portfolio img{
+    width: 360px;
+    height: 300px;
+}
+
+footer{
+    width: 100%;
+    height: 312px;
+}
 
 a{
     text-decoration: none;
