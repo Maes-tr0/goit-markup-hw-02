@@ -16,14 +16,29 @@ h1 {
     font-weight: bold;
 }
 
-h2 {
+h2,
+.portfolio h2,
+.team h2,
+.opportunities h2 {
     font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    color: #2e2f42;
     font-weight: bold;
 }
 
-h3 {
+h3,
+.team-title,
+.solution-title,
+.portfolio-title,
+.opportunities-title {
     font-size: 20px;
     font-weight: medium;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    color: #2e2f42;
+    font-weight: bold;
 }
 
 ul,
@@ -39,8 +54,7 @@ header li a:hover {
     color: #404BBF;
 }
 
-footer span,
-header span{
+.header span{
     color: #2e2f42;
 }
 
@@ -63,13 +77,6 @@ header span{
     color: #404bbf;
 }
 
-.address ul {
-    list-style-type: none;
-}
-
-.address{
-    font-style: normal;
-}
 
 .address-contact{
     text-decoration: none;
@@ -80,8 +87,8 @@ header span{
     font-style: normal;
 }
 
-.footer .logo,
-header .logo {
+.footer-logo,
+.header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -126,19 +133,6 @@ header .logo {
     color: #2e2f42;
 }
 
-
-.team-title,
-.portfolio-title,
-.opportunities-title,
-.portfolio h2,
-.team h2,
-.opportunities h2 {
-    letter-spacing: 0.02em;
-    font-weight: 500;
-    color: #2e2f42;
-}
-
-.footer-text,
 .portfolio-text
 .team-text,
 .opportunities-text {
@@ -168,24 +162,25 @@ header .logo {
 }
 
 
-footer {
+.footer {
     background-color: #2e2f42;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    text-transform: uppercase;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4d5ae5;
 }
 
-.footer-logo-span{
+.footer-logo .span{
     color: #f4f4fd;
 }
 
 .footer-text {
     color: #F4F4FD;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-transform: unset;
 }
 
 a {
