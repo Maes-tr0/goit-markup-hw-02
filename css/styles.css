@@ -17,8 +17,8 @@ h1,
 }
 
 h2,
-.portfolio h2,
-.team h2,
+.portfolio-h2,
+.team-h2,
 .opportunities h2 {
     font-size: 36px;
     letter-spacing: 0.02em;
@@ -159,7 +159,6 @@ header .nav-link span {
     background-color: #FFFFFF
 }
 
-
 .footer {
     background-color: #2e2f42;
     font-family: "Raleway", sans-serif;
@@ -170,7 +169,7 @@ header .nav-link span {
     color: #4d5ae5;
 }
 
-.footer-logo .span{
+.footer-logo span{
     color: #f4f4fd;
 }
 
