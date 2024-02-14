@@ -17,9 +17,21 @@ h1,
 }
 
 h2,
-.portfolio-h2,
-.team-h2,
 .opportunities h2 {
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    color: #2e2f42;
+}
+
+.team h2{
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    color: #2e2f42;
+}
+
+.portfolio h2{
     font-size: 36px;
     letter-spacing: 0.02em;
     font-weight: 500;
@@ -149,14 +161,12 @@ header .nav-link span {
 
 .team-title{
     line-height: 1.2;
+    background-color: #FFFFFF;
 }
 
 .team-text{
     line-height: 1.5;
     color: #434455;
-}
-.team ul{
-    background-color: #FFFFFF
 }
 
 .footer {
