@@ -56,18 +56,18 @@ header span{
     color: #2e2f42;
 }
 
-address a:hover,
-address a:focus,
+.address a:hover,
+.address a:focus,
 .nav-link:focus,
 .nav-link:hover {
     color: #404bbf;
 }
 
-address ul {
+.address ul {
     list-style-type: none;
 }
 
-address{
+.address{
     font-style: normal;
 }
 
@@ -96,7 +96,7 @@ header .logo {
     text-align: center;
 }
 
-.solution-h1 {
+.solution-title {
     line-height: 1.07;
     color: #ffffff;
     letter-spacing: 0.02em
@@ -128,7 +128,7 @@ header .logo {
 
 .team h3,
 .portfolio h3,
-.opportunities h3,
+.opportunities-title,
 .team-h2,
 .opportunities-h2 {
     letter-spacing: 0.02em;
@@ -136,7 +136,7 @@ header .logo {
     color: #2e2f42;
 }
 
-.opportunities p {
+.opportunities-text {
     color: #434455;
 }
 
