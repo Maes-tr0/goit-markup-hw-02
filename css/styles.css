@@ -9,11 +9,11 @@ body {
 }
 
 title,
-h1 {
+h1,
+.solution-title{
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
-    font-weight: bold;
+    line-height: 1.07;
 }
 
 h2,
@@ -21,11 +21,9 @@ h2,
 .team h2,
 .opportunities h2 {
     font-size: 36px;
-    font-weight: bold;
     letter-spacing: 0.02em;
     font-weight: 500;
     color: #2e2f42;
-    font-weight: bold;
 }
 
 h3,
@@ -34,7 +32,6 @@ h3,
 .portfolio-title,
 .opportunities-title {
     font-size: 20px;
-    font-weight: medium;
     letter-spacing: 0.02em;
     font-weight: 500;
     color: #2e2f42;
@@ -54,7 +51,7 @@ header li a:hover {
     color: #404BBF;
 }
 
-.header span{
+.header-logo span{
     color: #2e2f42;
 }
 
@@ -66,8 +63,12 @@ header li a:hover {
     color: #2e2f42;
 }
 
-.nav-link span {
+header .nav-link span {
     color: #2e2f42;
+}
+
+.address{
+    font-style: normal;
 }
 
 .address a:hover,
