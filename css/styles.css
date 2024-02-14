@@ -17,9 +17,9 @@ h1,
 }
 
 h2,
-.portfolio h2,
-.team h2,
-.opportunities h2 {
+.portfolio-h2,
+.team-h2,
+.opportunities-h2 {
     font-size: 36px;
     letter-spacing: 0.02em;
     font-weight: 500;
@@ -34,7 +34,6 @@ h3,
     letter-spacing: 0.02em;
     font-weight: 500;
     color: #2e2f42;
-    font-weight: bold;
 }
 
 ul,
