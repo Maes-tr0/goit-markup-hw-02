@@ -126,9 +126,11 @@ header .logo {
     color: #2e2f42;
 }
 
+
 .team-title,
 .portfolio-title,
 .opportunities-title,
+.portfolio h2,
 .team h2,
 .opportunities h2 {
     letter-spacing: 0.02em;
@@ -136,6 +138,7 @@ header .logo {
     color: #2e2f42;
 }
 
+.footer-text,
 .portfolio-text
 .team-text,
 .opportunities-text {
@@ -143,21 +146,25 @@ header .logo {
 }
 
 .team {
-    background-color: #F4F4FD;
+    background-color: #f4f4fd;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    background-color: #ffffff;
 }
 
-.portfolio h2 {
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
+.team-title{
+    line-height: 1.2;
+}
+
+.team-text{
+    line-height: 1.5;
+    color: #434455;
+}
+
+.team-img{
+    background-color: #ffffff;
 }
 
 
@@ -172,8 +179,13 @@ footer {
     color: #4d5ae5;
 }
 
-.footer p {
+.footer-logo-span{
+    color: #f4f4fd;
+}
+
+.footer-text {
     color: #F4F4FD;
+    line-height: 1.5;
 }
 
 a {
